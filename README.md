@@ -23,6 +23,10 @@ __Notebook 3__ : Facial Keypoint Detection Using Haar Cascades and your Trained 
 
 __Notebook 4__ : Fun Filters and Keypoint Uses
 
+### Dataset Description
+This facial keypoints dataset at put at my disposition by @udacity consists of 5770 color images. All of these images are separated into:
+- Training images: 3462 to create a model to predict keypoints
+- Test images: 2308 that will be used to test the accuracy of your model
 
 ### Image Augmentation
 Introduce generalization(randomness) to detect and learn structures
@@ -36,7 +40,7 @@ I used the following transformation techniques to avoid unnecessary impacts on k
 
 
 ### Architecture & Performance
-I modified the NaimishNet (original)[https://arxiv.org/pdf/1710.00977.pdf] architecture. 
+I modified the NaimishNet (original)[https://arxiv.org/pdf/1710.00977.pdf] architecture. The hyperparameters of the new CNN are depictec in the following table
 
 |Conv Layer      | Number of Filters | Filter Shape     | Stride     | Padding     |
 | :---           |    :----:         |          :---:   | :---:      |---:         |
