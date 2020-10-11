@@ -55,9 +55,12 @@ MaxPooling2d1 : Use a pool shape of (2 x 2) 4x
 My modified NaimishNet has four **Conv2D** layers (as shown in the above table), **MaxPooling**, **BatchNorm** in every layer, **ReLU** Activation, and three **fully-connected** (FC) layers. I used **Dropout** at a rate of 0.5 on the the first FC layer and tuned it down to 0.4 on the second FC layer.
 
 
-BatchSize, Epochs, Loss & Optimization Functions (Ran it on **1 CPU**)
-- **BatchSize** : 32 for train dataset and 20 for test dataset
-- **Epochs**   : 7 (can train longer for better performance)
+BatchSize, Epochs, Loss & Optimization Functions
+
+|CPU      	 | Batch Size	     | lr	        | max_epoch  | time/epoch  |
+| :---           |    :----:         |          :---:   | :---:      |---:         |
+|6               | 32                |       1e-6       |100         |50 mins 	   |
+
 - **Loss**     : SmoothL1Loss (significant loss reduction since earlier epochs)
 - **Optimizer** : Adam as suggested in the original article
 	
