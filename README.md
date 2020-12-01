@@ -9,11 +9,13 @@
 In this project, I combine my knowledge of computer vision techniques and deep learning architectures to build a facial keypoint detection system. Nowadays, facial keypoints detection has become a very popular topic and its applications include 
 - Snapchat, 
 - Facial tracking, 
-- Facial pose recognition, 
-- Facial filters, and 
-- Emotion recognition. 
+- Facial pose recognition/biometric, 
+- Facial filters, 
+- Emotion recognition,
+- Tracking faces in images videos, and
+- Detecting dysmorphic facial signs
 
-The objective of facial keypoints detection is to find the facial keypoints in a given face, which is very challenging due to very different facial features from person to person. I modified **NaimishNet architecture** to obtain a CNN model this is able to look at any image, detect faces, and predict the locations of facial keypoints on each face.
+The objective of facial keypoints detection is to find the facial keypoints in a given face, which is very challenging due to very different facial features from person to person such as 3D pose, viewing angle, an illumination condition. I modified **NaimishNet architecture** to obtain a CNN model this is able to look at any image, detect faces, and predict the locations of facial keypoints on each face.
 
 The Notebook I submitted for revision to Udacity's reviewers are two Python notebooks. The third one is a fun project.
 
