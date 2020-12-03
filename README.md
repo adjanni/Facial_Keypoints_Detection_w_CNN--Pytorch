@@ -7,11 +7,11 @@
 ## Project Overview
 
 In this project, I combine my knowledge of computer vision techniques and deep learning architectures to build a facial keypoint detection system. Nowadays, facial keypoints detection has become a very popular topic and its applications include 
-- Snapchat, 
-- Facial tracking, 
-- Facial pose recognition/biometric, 
-- Facial filters, 
-- Emotion recognition,
+- Snapchat
+- Facial tracking
+- Facial pose recognition/biometric 
+- Facial filters
+- Emotion recognition
 - Tracking faces in images videos, and
 - Detecting dysmorphic facial signs
 
