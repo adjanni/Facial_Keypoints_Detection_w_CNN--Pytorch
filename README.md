@@ -67,7 +67,7 @@ BatchSize, Epochs, Loss & Optimization Functions
 - **Optimizer** : Adam as suggested in the original article
 	
 
-### Worklist
+### Project Instruction
 For project instructions, please refer to https://github.com/udacity/P1_Facial_Keypoints
 
 
